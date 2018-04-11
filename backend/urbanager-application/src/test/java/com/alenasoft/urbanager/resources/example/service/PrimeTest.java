@@ -57,4 +57,5 @@ public class PrimeTest {
         String expected = "FAIL";
         assertThat(result).isEqualTo(expected);
     }
+    
 }

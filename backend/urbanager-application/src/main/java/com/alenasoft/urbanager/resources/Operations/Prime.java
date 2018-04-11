@@ -14,11 +14,11 @@ public class Prime {
 
         String result = "";
         if (number == 0) {
-            result = this.FAIL;
+            return this.FAIL;
         }
 
         if(number == 1){
-            result = this.FAIL;
+            return this.FAIL;
         }
         int contadorPrimo =0;
         for (int i = 1; number >= i; i++){
@@ -27,9 +27,9 @@ public class Prime {
             }
         }
         if (contadorPrimo == 2){
-            result = this.OK;
+            return this.OK;
+        }else{
+            return this.FAIL;
         }
-
-        return result;
     }
 }

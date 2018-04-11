@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd65e1c-92ba-4d39-8b93-ba7da984e4d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/Prime.java" afterPath="$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/Prime.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeTest.java" afterPath="$PROJECT_DIR$/backend/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/backend/urbanager-application/target/" />
@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/backend/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="237">
-              <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="36" />
+              <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#720#746#1" expanded="true" />
@@ -44,24 +44,24 @@
       <file leaf-file-name="Prime.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/Prime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="271">
+              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="e#184#185#0" expanded="true" />
                 <element signature="e#213#214#0" expanded="true" />
                 <element signature="e#266#285#1" expanded="true" />
-                <element signature="e#294#354#0" expanded="true" />
-                <element signature="e#294#354#0" expanded="true" />
-                <element signature="e#364#422#0" expanded="true" />
-                <element signature="e#364#422#0" expanded="true" />
-                <element signature="e#431#452#1" expanded="true" />
-                <element signature="e#461#589#0" expanded="true" />
-                <element signature="e#466#476#1" expanded="true" />
-                <element signature="e#461#589#0" expanded="true" />
-                <element signature="e#508#579#0" expanded="true" />
-                <element signature="e#508#579#0" expanded="true" />
-                <element signature="e#598#662#0" expanded="true" />
-                <element signature="e#598#662#0" expanded="true" />
+                <element signature="e#294#352#0" expanded="true" />
+                <element signature="e#294#352#0" expanded="true" />
+                <element signature="e#362#418#0" expanded="true" />
+                <element signature="e#362#418#0" expanded="true" />
+                <element signature="e#427#448#1" expanded="true" />
+                <element signature="e#457#585#0" expanded="true" />
+                <element signature="e#462#472#1" expanded="true" />
+                <element signature="e#457#585#0" expanded="true" />
+                <element signature="e#504#575#0" expanded="true" />
+                <element signature="e#504#575#0" expanded="true" />
+                <element signature="e#594#701#0" expanded="true" />
+                <element signature="e#594#701#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -286,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeTest.testNumberIsPrime">
+  <component name="RunManager" selected="JUnit.PrimeTest">
     <configuration name="PrimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -312,7 +312,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PrimeTest.testGetAnExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeTest.testNumberIsNotPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.alenasoft.urbanager.resources.example.service.*" />
@@ -324,7 +324,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.alenasoft.urbanager.resources.example.service" />
       <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.resources.example.service.PrimeTest" />
-      <option name="METHOD_NAME" value="testGetAnExample" />
+      <option name="METHOD_NAME" value="testNumberIsNotPrime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -558,19 +558,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeTest.testGetAnExample" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsZero" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsOne" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PrimeTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberIsPrime" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsZero" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsOne" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberIsPrime" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberIsNotPrime" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberIsPrime" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsOne" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsZero" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PrimeTest.testGetAnExample" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PrimeTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberIsNotPrime" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberIsPrime" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsOne" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsZero" />
       </list>
     </recent_temporary>
   </component>
@@ -593,19 +593,22 @@
       <workItem from="1522971268980" duration="1629000" />
       <workItem from="1523019392743" duration="103000" />
       <workItem from="1523404868050" duration="4000" />
-      <workItem from="1523404938838" duration="3765000" />
+      <workItem from="1523404938838" duration="3974000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleResourceTest - 2018.04.10 at 20h 15m 54s.xml">
-      <configuration name="ExampleResourceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeTest - 2018.04.10 at 20h 49m 52s.xml">
       <configuration name="PrimeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PrimeTest - 2018.04.10 at 21h 03m 28s.xml">
       <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest - 2018.04.10 at 21h 09m 16s.xml">
+      <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest_testNumberIsNotPrime - 2018.04.10 at 21h 08m 53s.xml">
+      <configuration name="PrimeTest.testNumberIsNotPrime" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PrimeTest_testNumberIsPrime - 2018.04.10 at 21h 00m 38s.xml">
       <configuration name="PrimeTest.testNumberIsPrime" configurationId="JUnit" />
@@ -625,12 +628,9 @@
     <history-entry file="PrimeTest_testNumberPrimeIsZero - 2018.04.10 at 20h 46m 10s.xml">
       <configuration name="PrimeTest.testNumberPrimeIsZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimoTest_testGetAnExample - 2018.04.10 at 20h 36m 00s.xml">
-      <configuration name="PrimoTest.testGetAnExample" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13125000" />
+    <option name="totallyTimeSpent" value="13334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -685,7 +685,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1063,24 +1063,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/Prime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="271">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="e#184#185#0" expanded="true" />
             <element signature="e#213#214#0" expanded="true" />
             <element signature="e#266#285#1" expanded="true" />
-            <element signature="e#294#354#0" expanded="true" />
-            <element signature="e#294#354#0" expanded="true" />
-            <element signature="e#364#422#0" expanded="true" />
-            <element signature="e#364#422#0" expanded="true" />
-            <element signature="e#431#452#1" expanded="true" />
-            <element signature="e#461#589#0" expanded="true" />
-            <element signature="e#466#476#1" expanded="true" />
-            <element signature="e#461#589#0" expanded="true" />
-            <element signature="e#508#579#0" expanded="true" />
-            <element signature="e#508#579#0" expanded="true" />
-            <element signature="e#598#662#0" expanded="true" />
-            <element signature="e#598#662#0" expanded="true" />
+            <element signature="e#294#352#0" expanded="true" />
+            <element signature="e#294#352#0" expanded="true" />
+            <element signature="e#362#418#0" expanded="true" />
+            <element signature="e#362#418#0" expanded="true" />
+            <element signature="e#427#448#1" expanded="true" />
+            <element signature="e#457#585#0" expanded="true" />
+            <element signature="e#462#472#1" expanded="true" />
+            <element signature="e#457#585#0" expanded="true" />
+            <element signature="e#504#575#0" expanded="true" />
+            <element signature="e#504#575#0" expanded="true" />
+            <element signature="e#594#701#0" expanded="true" />
+            <element signature="e#594#701#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1088,7 +1088,7 @@
     <entry file="file://$PROJECT_DIR$/backend/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
-          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="36" />
+          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#720#746#1" expanded="true" />
