@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/backend/urbanager.iml" filepath="$PROJECT_DIR$/backend/urbanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/urbanager-api/urbanager-api.iml" filepath="$PROJECT_DIR$/backend/urbanager-api/urbanager-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/urbanager-application/urbanager-application.iml" filepath="$PROJECT_DIR$/backend/urbanager-application/urbanager-application.iml" />
+    </modules>
+  </component>
+</project>
