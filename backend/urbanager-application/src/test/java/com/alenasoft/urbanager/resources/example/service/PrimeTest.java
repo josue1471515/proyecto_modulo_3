@@ -42,4 +42,12 @@ public class PrimeTest {
         assertThat(result).isEqualTo(expected);
     }
 
+    @Test
+    public void testNumberIsPrime() {
+        Prime prime = new Prime();
+        String result = prime.isPrime(13);
+        String expected = "OK";
+        assertThat(result).isEqualTo(expected);
+    }
+
 }

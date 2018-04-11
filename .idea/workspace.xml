@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd65e1c-92ba-4d39-8b93-ba7da984e4d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/Prime.java" afterPath="$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/Prime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeTest.java" afterPath="$PROJECT_DIR$/backend/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/backend/urbanager-application/target/" />
     <ignored path="$PROJECT_DIR$/backend/target/" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrimeTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PrimeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="200">
+              <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#720#746#1" expanded="true" />
@@ -30,24 +30,35 @@
                 <element signature="e#937#963#1" expanded="true" />
                 <element signature="e#972#1005#1" expanded="true" />
                 <element signature="e#1014#1039#1" expanded="true" />
+                <element signature="e#1151#1177#1" expanded="true" />
+                <element signature="e#1186#1220#1" expanded="true" />
+                <element signature="e#1229#1252#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Prime.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Prime.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/Prime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="183">
+              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#230#249#1" expanded="true" />
-                <element signature="e#258#318#0" expanded="true" />
-                <element signature="e#258#318#0" expanded="true" />
-                <element signature="e#328#386#0" expanded="true" />
-                <element signature="e#328#386#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#266#285#1" expanded="true" />
+                <element signature="e#294#354#0" expanded="true" />
+                <element signature="e#294#354#0" expanded="true" />
+                <element signature="e#364#422#0" expanded="true" />
+                <element signature="e#364#422#0" expanded="true" />
+                <element signature="e#431#452#1" expanded="true" />
+                <element signature="e#461#589#0" expanded="true" />
+                <element signature="e#466#476#1" expanded="true" />
+                <element signature="e#461#589#0" expanded="true" />
+                <element signature="e#508#579#0" expanded="true" />
+                <element signature="e#508#579#0" expanded="true" />
+                <element signature="e#598#662#0" expanded="true" />
+                <element signature="e#598#662#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +113,8 @@
         <option value="$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/service/OperationService.java" />
         <option value="$PROJECT_DIR$/backend/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimoTest.java" />
         <option value="$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/Primo.java" />
-        <option value="$PROJECT_DIR$/backend/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeTest.java" />
         <option value="$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/Prime.java" />
+        <option value="$PROJECT_DIR$/backend/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeTest.java" />
       </list>
     </option>
   </component>
@@ -273,31 +284,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.PrimeTest">
-    <configuration name="ExampleResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.alenasoft.urbanager.resources.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="urbanager-application" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.alenasoft.urbanager.resources.example" />
-      <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.resources.example.ExampleResourceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="PrimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -336,6 +322,31 @@
       <option name="PACKAGE_NAME" value="com.alenasoft.urbanager.resources.example.service" />
       <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.resources.example.service.PrimeTest" />
       <option name="METHOD_NAME" value="testGetAnExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PrimeTest.testNumberIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.alenasoft.urbanager.resources.example.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="urbanager-application" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.alenasoft.urbanager.resources.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.resources.example.service.PrimeTest" />
+      <option name="METHOD_NAME" value="testNumberIsPrime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -544,19 +555,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleResourceTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeTest.testGetAnExample" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsZero" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsOne" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.PrimeTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeTest.testGetAnExample" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsZero" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsOne" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PrimeTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberIsPrime" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.PrimeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsOne" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsZero" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeTest.testGetAnExample" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleResourceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberIsPrime" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsOne" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeTest.testNumberPrimeIsZero" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PrimeTest.testGetAnExample" />
       </list>
     </recent_temporary>
   </component>
@@ -579,31 +590,31 @@
       <workItem from="1522971268980" duration="1629000" />
       <workItem from="1523019392743" duration="103000" />
       <workItem from="1523404868050" duration="4000" />
-      <workItem from="1523404938838" duration="2907000" />
+      <workItem from="1523404938838" duration="3640000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_urbanager-application_(2) - 2018.04.05 at 14h 55m 06s.xml">
-      <configuration name="All in urbanager-application (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleResourceTest - 2018.04.05 at 19h 47m 57s.xml">
-      <configuration name="ExampleResourceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExampleResourceTest - 2018.04.10 at 20h 14m 29s.xml">
       <configuration name="ExampleResourceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ExampleResourceTest - 2018.04.10 at 20h 15m 54s.xml">
       <configuration name="ExampleResourceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleResourceTest_testToGetOkResponseWhenGettingAllExamples - 2018.04.05 at 14h 50m 17s.xml">
-      <configuration name="ExampleResourceTest.testToGetOkResponseWhenGettingAllExamples" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleResourceTest_testToGetOkResponseWhenGettingAllExamples - 2018.04.05 at 14h 50m 33s.xml">
-      <configuration name="ExampleResourceTest.testToGetOkResponseWhenGettingAllExamples" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeTest - 2018.04.10 at 20h 49m 52s.xml">
       <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest - 2018.04.10 at 21h 03m 28s.xml">
+      <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest_testNumberIsPrime - 2018.04.10 at 21h 00m 38s.xml">
+      <configuration name="PrimeTest.testNumberIsPrime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest_testNumberIsPrime - 2018.04.10 at 21h 02m 01s.xml">
+      <configuration name="PrimeTest.testNumberIsPrime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest_testNumberIsPrime - 2018.04.10 at 21h 03m 04s.xml">
+      <configuration name="PrimeTest.testNumberIsPrime" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PrimeTest_testNumberPrimeIsOne - 2018.04.10 at 20h 48m 02s.xml">
       <configuration name="PrimeTest.testNumberPrimeIsOne" configurationId="JUnit" />
@@ -616,7 +627,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12267000" />
+    <option name="totallyTimeSpent" value="13000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -632,7 +643,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37654322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -671,7 +682,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1047,10 +1058,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/Prime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#266#285#1" expanded="true" />
+            <element signature="e#294#354#0" expanded="true" />
+            <element signature="e#294#354#0" expanded="true" />
+            <element signature="e#364#422#0" expanded="true" />
+            <element signature="e#364#422#0" expanded="true" />
+            <element signature="e#431#452#1" expanded="true" />
+            <element signature="e#461#589#0" expanded="true" />
+            <element signature="e#466#476#1" expanded="true" />
+            <element signature="e#461#589#0" expanded="true" />
+            <element signature="e#508#579#0" expanded="true" />
+            <element signature="e#508#579#0" expanded="true" />
+            <element signature="e#598#662#0" expanded="true" />
+            <element signature="e#598#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="200">
+          <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#720#746#1" expanded="true" />
@@ -1059,22 +1094,9 @@
             <element signature="e#937#963#1" expanded="true" />
             <element signature="e#972#1005#1" expanded="true" />
             <element signature="e#1014#1039#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/Operations/Prime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#230#249#1" expanded="true" />
-            <element signature="e#258#318#0" expanded="true" />
-            <element signature="e#258#318#0" expanded="true" />
-            <element signature="e#328#386#0" expanded="true" />
-            <element signature="e#328#386#0" expanded="true" />
+            <element signature="e#1151#1177#1" expanded="true" />
+            <element signature="e#1186#1220#1" expanded="true" />
+            <element signature="e#1229#1252#1" expanded="true" />
           </folding>
         </state>
       </provider>
