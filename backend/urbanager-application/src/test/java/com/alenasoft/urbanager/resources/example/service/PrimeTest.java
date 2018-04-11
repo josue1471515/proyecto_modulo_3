@@ -50,4 +50,11 @@ public class PrimeTest {
         assertThat(result).isEqualTo(expected);
     }
 
+    @Test
+    public void testNumberIsNotPrime() {
+        Prime prime = new Prime();
+        String result = prime.isPrime(14);
+        String expected = "FAIL";
+        assertThat(result).isEqualTo(expected);
+    }
 }
