@@ -30,7 +30,7 @@ public class PrimeTest {
     public void testNumberPrimeIsZero() {
         Prime prime = new Prime();
         String result = prime.isPrime(0);
-        String expected = "OK";
+        String expected = "FAIL";
         assertThat(result).isEqualTo(expected);
     }
 }
