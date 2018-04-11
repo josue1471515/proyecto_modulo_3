@@ -33,4 +33,13 @@ public class PrimeTest {
         String expected = "FAIL";
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    public void testNumberPrimeIsOne() {
+        Prime prime = new Prime();
+        String result = prime.isPrime(1);
+        String expected = "FAIL";
+        assertThat(result).isEqualTo(expected);
+    }
+
 }

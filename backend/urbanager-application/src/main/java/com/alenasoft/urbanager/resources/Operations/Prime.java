@@ -14,9 +14,9 @@ public class Prime {
         String result = "";
         if (number == 0) {
             result = this.FAIL;
-        } else {
-
         }
+
+        
         return result;
     }
 }
