@@ -16,7 +16,9 @@ public class Prime {
             result = this.FAIL;
         }
 
-        
+        if(number == 1){
+            result = this.FAIL;
+        }
         return result;
     }
 }
