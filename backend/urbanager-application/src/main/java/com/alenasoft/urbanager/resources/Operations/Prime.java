@@ -41,17 +41,22 @@ public class Prime {
             return this.EMPTY;
         }
         String result = "";
-        int i = 2;
-        while (true) {
-            if (isPrime(i).equals(this.OK)) {
-                number--;
-                result += String.format("%s,",i);
+
+        if (number > 0) {
+            int i = 2;
+            while (true) {
+                if (isPrime(i).equals(this.OK)) {
+                    number--;
+                    result += String.format("%s,", i);
+                }
+                if (number == 0) {
+                    result = result.substring(0, result.length() - 1);
+                    break;
+                }
+                i++;
             }
-            if (number==0){
-                result = result.substring(0,result.length()-1);
-                break;
-            }
-            i++;
+        }else{
+            result = "FAIL";
         }
         return result;
     }
