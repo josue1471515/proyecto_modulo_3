@@ -32,4 +32,6 @@ public class Prime {
             return this.FAIL;
         }
     }
+
+
 }

@@ -27,7 +27,7 @@ public class PrimeTest {
     }
 
     @Test
-    public void testNumberPrimeIsZero() {
+    public void testIsPrimeNumberPrimeIsZero() {
         Prime prime = new Prime();
         String result = prime.isPrime(0);
         String expected = "FAIL";
@@ -35,7 +35,7 @@ public class PrimeTest {
     }
 
     @Test
-    public void testNumberPrimeIsOne() {
+    public void testIsPrimeNumberPrimeIsOne() {
         Prime prime = new Prime();
         String result = prime.isPrime(1);
         String expected = "FAIL";
@@ -43,7 +43,7 @@ public class PrimeTest {
     }
 
     @Test
-    public void testNumberIsPrime() {
+    public void testIsPrimeNumberIsPrime() {
         Prime prime = new Prime();
         String result = prime.isPrime(13);
         String expected = "OK";
@@ -51,11 +51,14 @@ public class PrimeTest {
     }
 
     @Test
-    public void testNumberIsNotPrime() {
+    public void testIsPrimeNumberIsNotPrime() {
         Prime prime = new Prime();
         String result = prime.isPrime(14);
         String expected = "FAIL";
         assertThat(result).isEqualTo(expected);
     }
-    
+
+
+
+
 }
