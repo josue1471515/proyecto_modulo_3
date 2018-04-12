@@ -58,6 +58,13 @@ public class PrimeTest {
         assertThat(result).isEqualTo(expected);
     }
 
+    @Test
+    public void testGenerateSeriePrimeIfNumberIsZeroReturnEmpty() {
+        Prime prime = new Prime();
+        String result = prime.generateSeriePrime(0);
+        String expected = "";
+        assertThat(result).isEqualTo(expected);
+    }
 
 
 

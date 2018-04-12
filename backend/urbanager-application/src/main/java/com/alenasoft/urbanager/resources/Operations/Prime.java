@@ -12,7 +12,7 @@ public class Prime {
 
     public String isPrime(int number) {
 
-        String result = "";
+
         if (number == 0) {
             return this.FAIL;
         }
@@ -32,6 +32,8 @@ public class Prime {
             return this.FAIL;
         }
     }
+
+    
 
 
 }
