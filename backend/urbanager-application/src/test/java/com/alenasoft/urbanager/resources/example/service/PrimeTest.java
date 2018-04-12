@@ -66,6 +66,14 @@ public class PrimeTest {
         assertThat(result).isEqualTo(expected);
     }
 
+    @Test
+    public void testGenerateSeriePrimeIfNumberIsNumberNReturnNNumberPrimes() {
+        Prime prime = new Prime();
+        String result = prime.generateSeriePrime(4);
+        String expected = "2,3,5,7";
+        assertThat(result).isEqualTo(expected);
+    }
+
 
 
 }
