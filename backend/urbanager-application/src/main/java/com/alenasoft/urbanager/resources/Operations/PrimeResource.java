@@ -17,15 +17,16 @@ public class PrimeResource {
     @Inject
     private PrimeService services;
 
+
     @GET
-    public String helloWorld() {
-        return "Hello World";
+    public String seriePrime(@QueryParam("limite") int number ) {
+        String result = services.generateSeriePrime(number);
+        return result;
     }
-    
 
     @GET
     @Path("{num1}")
-    public String addNumbers(@PathParam("num1") int num1) {
+    public String validPrime(@PathParam("num1") int num1) {
         String isPrime = services.isPrime(num1);
         return isPrime;
     }
