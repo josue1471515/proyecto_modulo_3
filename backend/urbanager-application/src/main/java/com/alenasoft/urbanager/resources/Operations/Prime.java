@@ -4,6 +4,7 @@ public class Prime {
 
     private final String FAIL = "FAIL";
     private final String OK = "OK";
+    private final String EMPTY = "";
 
     public String holaMundo() {
         return "hola";
@@ -17,23 +18,29 @@ public class Prime {
             return this.FAIL;
         }
 
-        if(number == 1){
+        if (number == 1) {
             return this.FAIL;
         }
-        int contadorPrimo =0;
-        for (int i = 1; number >= i; i++){
-            if (number % i == 0){
+        int contadorPrimo = 0;
+        for (int i = 1; number >= i; i++) {
+            if (number % i == 0) {
                 contadorPrimo += 1;
             }
         }
-        if (contadorPrimo == 2){
+        if (contadorPrimo == 2) {
             return this.OK;
-        }else{
+        } else {
             return this.FAIL;
         }
     }
 
-    
 
+    public String generateSeriePrime(int number) {
 
+        String result = "Serie :";
+        if (number == 0) {
+            result = this.EMPTY;
+        }
+        return result;
+    }
 }
