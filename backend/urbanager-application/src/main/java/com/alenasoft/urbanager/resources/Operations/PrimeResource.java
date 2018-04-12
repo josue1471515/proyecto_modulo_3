@@ -21,8 +21,13 @@ public class PrimeResource {
     public String helloWorld() {
         return "Hello World";
     }
+    
 
-
-   
+    @GET
+    @Path("{num1}")
+    public String addNumbers(@PathParam("num1") int num1) {
+        String isPrime = services.isPrime(num1);
+        return isPrime;
+    }
 }
 
