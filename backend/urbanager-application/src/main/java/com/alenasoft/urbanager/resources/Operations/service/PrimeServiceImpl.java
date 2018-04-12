@@ -10,7 +10,6 @@ public class PrimeServiceImpl  implements PrimeService {
 
     public String isPrime(int number) {
 
-
         if (number == 0) {
             return this.FAIL;
         }
