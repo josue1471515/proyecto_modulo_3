@@ -74,6 +74,13 @@ public class PrimeTest {
         assertThat(result).isEqualTo(expected);
     }
 
+    @Test
+    public void testGenerateSeriePrimeIfNumberIsNumberNegativeNReturnFail() {
+        Prime prime = new Prime();
+        String result = prime.generateSeriePrime(-4);
+        String expected = "FAIL";
+        assertThat(result).isEqualTo(expected);
+    }
 
 
 }
