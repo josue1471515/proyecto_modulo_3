@@ -1,14 +1,11 @@
-package com.alenasoft.urbanager.resources.Operations;
+package com.alenasoft.urbanager.resources.Operations.service;
 
-public class Prime {
+public class PrimeServiceImpl  implements PrimeService {
 
     private final String FAIL = "FAIL";
     private final String OK = "OK";
     private final String EMPTY = "";
 
-    public String holaMundo() {
-        return "hola";
-    }
 
 
     public String isPrime(int number) {
